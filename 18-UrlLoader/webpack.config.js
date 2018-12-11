@@ -65,7 +65,7 @@ module.exports = {
                 use:[{
                     loader: 'url-loader',
                     options: {
-                        limit: 50000,
+                        limit: 8192,
                         name:'[path][name].[ext]?[hash:8]'
                     }
                 }]

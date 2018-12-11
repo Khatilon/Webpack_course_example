@@ -93,7 +93,8 @@ module.exports = {
             template: 'html/template.html',
             viewport: 'width=640, user-scalable=no',
             description: 'Webpack前端自動化開發，讓你熟悉現代前端工程師開發的方法',
-            Keywords: 'Webpack前端自動化開發、前端、工程師、線上教學、教學範例'
+            Keywords: 'Webpack前端自動化開發、前端、工程師、線上教學、教學範例',
+            chunks: ['index' ],
         }),
         new webpack.ProvidePlugin({
             $: 'jquery',
